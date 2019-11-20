@@ -1,0 +1,33 @@
+
+
+.ctr{
+    margin:auto;
+    width: 400px;
+}
+#search{
+    margin: auto;
+    width: 100px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.top-left{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 12px;
+
+}
+.top-right{
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 12px;
+}
+a{
+    display: block;
+    padding: 8px;
+
+}
