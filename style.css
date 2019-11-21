@@ -1,12 +1,28 @@
-
-
+body {
+    font-family: arial,sans-serif;
+    font-size: 13px;
+}
+a {
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+    color: #000;
+    opacity: 0.75
+}
 .ctr{
     margin:auto;
-    width: 400px;
+    clear: both;
+    width: 600px;
+    padding: 12px;
 }
-#search{
+.search{
     margin: auto;
-    width: 100px;
+    width: 600px;
+    height: 36px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    border-radius: 36px;
 }
 ul{
     list-style-type: none;
@@ -26,8 +42,71 @@ ul{
     text-align: center;
     padding: 12px;
 }
-a{
+.sign-in{
+    float: right;
     display: block;
-    padding: 8px;
+    text-align: center;
+    padding: 7.5px 15px; 
+    margin: 7.5px 20px 0 0;   
+    color: #fff;    
+    background-color: #125dd6;
+    font-weight: bold;
+    text-align: center;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 5px;
+}
+.topnav{
+    padding: 0 12px 12px 24px;
 
 }
+.bottomnav{
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+    
+    border-top-style: solid;
+    border-width: 1px;
+    border-color: LightGray;
+    width: 100%;
+    margin: auto;
+
+}
+
+.bottom-left{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 12px;
+    margin: auto;
+   
+}
+.bottom-right{
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 12px;
+    margin: auto;
+    
+}
+.big-buttons{
+    
+    display:flex;
+    justify-content: center; 
+    height: 100%; 
+    margin: auto;
+
+    
+}
+.big-buttons input{
+    padding: 12px 18px;
+    font-size: 16;
+    color:rgb(63, 70, 77);
+    background-color: whitesmoke;
+    border-width: 0px;
+    border-radius: 3px;
+}
+
+
+    
+   
